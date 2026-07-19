@@ -18,10 +18,10 @@ The analysis is structured into two parts: supervised classification and unsuper
 
 ### Part 2: Clustering
 * **Subset Focus:** The dataset was filtered to only include participants whose field of study is "Business" in order to detect specific matching features within this statistically significant group.
-* **Instance & Attribute of Interest:** Focused on the participant with `iid 155` and the `field` attribute[cite: 5].
+* **Instance & Attribute of Interest:** Focused on the participant with `iid 155` and the `field` attribute.
 * **Preprocessing:** `SimpleImputer` (using the mean strategy) was applied to handle missing values without losing data, and features were subsequently scaled using `MinMaxScaler`.
-* **Modeling:** K-Means clustering was applied to group the business students based on their traits[cite: 5]. The optimal number of clusters was determined to be 3 ($k=3$) by utilizing the elbow method.
-* **Visualization:** Principal Component Analysis (PCA) was used to project the high-dimensional data into 2D and 3D spaces for cluster visualization[cite: 5].
+* **Modeling:** K-Means clustering was applied to group the business students based on their traits. The optimal number of clusters was determined to be 3 ($k=3$) by utilizing the elbow method.
+* **Visualization:** Principal Component Analysis (PCA) was used to project the high-dimensional data into 2D and 3D spaces for cluster visualization.
 
 ## Technologies Used
 * **Data Manipulation:** Python, Pandas, NumPy
